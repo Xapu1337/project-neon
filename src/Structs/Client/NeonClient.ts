@@ -1,5 +1,5 @@
 import {Client, ClientEvents, ClientOptions, Collection} from "discord.js";
-import {SlashCommandType} from "../../types/Commands/SlashCommandTypes";
+import {SlashCommandType} from "../../Types/Commands/SlashCommandTypes";
 import {Configuration} from "../Miscellaneous/Configuration";
 import klaw from "klaw"
 import path from "path";

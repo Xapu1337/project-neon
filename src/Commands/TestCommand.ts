@@ -1,4 +1,4 @@
-import {SlashCommand} from "../structs/Commands/SlashCommand";
+import {SlashCommand} from "../Structs/Commands/SlashCommand";
 import {SlashCommandBuilder} from "@discordjs/builders";
 
 export default new SlashCommand({

@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import {NeonClient} from "./structs/Client/NeonClient";
+import {NeonClient} from "./Structs/Client/NeonClient";
 
 (async () => {
     dotenv.config();

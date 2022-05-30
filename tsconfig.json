@@ -18,7 +18,10 @@
     "resolveJsonModule": true,
     "baseUrl": "./src",
     "declaration": true,
-    "typeRoots": ["node_modules/@types", "src/types"],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/Types"
+    ],
     "experimentalDecorators": true
   },
   "exclude": ["node_modules"],

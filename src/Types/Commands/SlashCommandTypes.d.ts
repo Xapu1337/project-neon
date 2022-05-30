@@ -1,4 +1,4 @@
-import {NeonClient} from "../../structs/Client/NeonClient";
+import {NeonClient} from "../../Structs/Client/NeonClient";
 import {CommandInteraction, PermissionResolvable} from "discord.js";
 import {SlashCommandBuilder} from "@discordjs/builders";
 

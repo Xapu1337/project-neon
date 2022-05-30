@@ -17,7 +17,7 @@ for (const folder of folders) {
     alias[folder.name] = `./src/${folder.name}`;
 }
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-Types
 module.exports = (api) => {
     // See docs about api at https://babeljs.io/docs/en/config-files#apicache
     const development = api.env(developmentEnvironments);

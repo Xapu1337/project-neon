@@ -1,9 +1,4 @@
-import {
-    ColorResolvable,
-    DMChannel,
-    MessageEmbed,
-    TextChannel, ThreadChannel
-} from "discord.js";
+import {ColorResolvable, DMChannel, MessageEmbed, TextChannel, ThreadChannel} from "discord.js";
 import chalk from "chalk";
 import dayjs from "dayjs";
 import {NeonClient} from "../Client/NeonClient";

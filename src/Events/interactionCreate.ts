@@ -1,6 +1,6 @@
-import {Event} from "../structs/Miscellaneous/Events";
-import {CommandInteraction, MessageEmbed, PermissionResolvable} from "discord.js";
-import {SlashCommandType} from "../types/Commands/SlashCommandTypes";
+import {Event} from "../Structs/Miscellaneous/Events";
+import {MessageEmbed, PermissionResolvable} from "discord.js";
+import {SlashCommandType} from "../Types/Commands/SlashCommandTypes";
 
 export default new Event("interactionCreate", async (client, interaction) => {
     if (interaction.isCommand()) {

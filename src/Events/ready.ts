@@ -1,8 +1,8 @@
-import {Event} from "../structs/Miscellaneous/Events";
+import {Event} from "../Structs/Miscellaneous/Events";
 import chalk from "chalk";
 import {table} from "table";
 import {Routes} from "discord-api-types/v10";
-import { REST } from "@discordjs/rest";
+import {REST} from "@discordjs/rest";
 
 export default new Event("ready", async (client) => {
     client.utilities.println(`\n` +
